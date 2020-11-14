@@ -13,3 +13,9 @@
 (require 'haskell-interactive-mode)
 (require 'haskell-process)
 (require 'haskell-mode-hook 'interactive-haskell-mode)
+
+(load (expand-file-name "~/quicklisp/slime-helper.el"))
+(setq inferior-lisp-program "/usr/local/bin/sbcl")
+
+(setq backup-directory-alist `(("." . "~/.backup")))
+(display-time)
