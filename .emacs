@@ -19,3 +19,6 @@
 
 (setq backup-directory-alist `(("." . "~/.backup")))
 (display-time)
+
+;; not help screen
+(setq inhibit-startup-screen t)
